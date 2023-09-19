@@ -1,0 +1,104 @@
+
+.navbar{
+        width: 100%;
+        display: flex;
+        justify-content: center;      
+}
+
+.navbar a {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 25px;
+}
+
+.icon{
+    width: 25px;
+}
+
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.parent-layer{
+    padding: 30px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    border:solid 1px #008AAA; 
+    margin-top: 75px;
+}
+.left-side{
+    width: 50%;
+}
+
+.welcoming-statment{
+    color:  #3BBADB;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hing-statment{
+    color:  #008AAA;
+    margin-top: 30px;       
+}
+.specialisit{
+    color: #D1884F ;
+}
+
+
+.introductiomMySelf{
+    width: 80%;
+    font-size: 24px;
+    margin-top: 50px;   
+}
+.descriptionMySelf{
+    width: 80%;
+    margin-top: 40px;   
+    font-size: 17px;
+}
+.btns{
+    margin-top: 60px;
+
+}
+.btn1{
+    background-color: #008AAA;
+    color: #fff;
+    border: solid 1px #008AAA;
+    border-radius: 4px;
+    padding: 3px 18px;
+    box-shadow: 1px 3px 1px rgba(0, 138, 170, 0.2);
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+
+ 
+}
+.btn2{
+    background-color: #fff;
+    color: #008AAA;
+    border: solid 1px #008AAA;
+    padding: 3px 18px; 
+    box-shadow: 0px 1px 0px rgba(0, 138, 170, 0.2);
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    border-radius: 4px;
+    margin-left: 35px;
+}
+
+
+/*-------Right Side (Image Side)---------*/
+.right-side{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+}
+.amedImg{
+    width: 70%;
+    height: 80%;
+    border-bottom-left-radius: 60%;
+    box-shadow: -17px 0px 0px rgba(58,58,58,0.5)
+    ;
+}
